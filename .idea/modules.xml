@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modtest.iml" filepath="$PROJECT_DIR$/.idea/modules/modtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modtest_api.iml" filepath="$PROJECT_DIR$/.idea/modules/modtest_api.iml" group="modtest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modtest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modtest_main.iml" group="modtest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modtest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modtest_test.iml" group="modtest" />
+    </modules>
+  </component>
+</project>
