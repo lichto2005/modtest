@@ -1,21 +1,22 @@
 package com.lichto.modtest;
 
-import com.lichto.modtest.configuration.ConfigurationHandler;
+import com.lichto.modtest.handler.ConfigurationHandler;
+import com.lichto.modtest.init.ModItems;
 import com.lichto.modtest.proxy.IProxy;
 import com.lichto.modtest.reference.Reference;
+import com.lichto.modtest.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-import javax.security.auth.login.Configuration;
-
 /**
  * Created by Noah Lichtenstein on 6/5/2016.
  */
 
-@Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION)
+@Mod(modid= Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class ModTest
 {
     @Mod.Instance(Reference.MOD_ID)
@@ -28,6 +29,10 @@ public class ModTest
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        LogHelper.info("Pre Init Complete.");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
