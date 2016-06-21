@@ -1,6 +1,7 @@
 package com.lichto.modtest;
 
 import com.lichto.modtest.handler.ConfigurationHandler;
+import com.lichto.modtest.init.ModBlocks;
 import com.lichto.modtest.init.ModItems;
 import com.lichto.modtest.proxy.IProxy;
 import com.lichto.modtest.reference.Reference;
@@ -33,6 +34,7 @@ public class ModTest
         LogHelper.info("Pre Init Complete.");
 
         ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
