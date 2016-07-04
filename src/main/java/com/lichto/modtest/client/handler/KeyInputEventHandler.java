@@ -18,6 +18,7 @@ public class KeyInputEventHandler
         if(KeyBindings.charge.isPressed())
         {
             return Key.CHARGE;
+            // comment
         }
         else if(KeyBindings.release.isPressed())
         {
