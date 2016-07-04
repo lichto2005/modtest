@@ -5,5 +5,5 @@ package com.lichto.modtest.proxy;
  */
 public interface IProxy
 {
-
+    public abstract void registerKeyBindings();
 }

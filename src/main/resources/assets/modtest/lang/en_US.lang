@@ -1,2 +1,10 @@
+#Keys
+keys.modtest.category=ModTest
+keys.modtest.charge=Charge
+keys.modtest.release=Release
+
+#Items
 item.modtest:leaf.name=Leaf
+
+#Blocks
 tile.modtest:flag.name=Flag

@@ -1,37 +1,18 @@
-[23:07:23] [main/INFO]: Setting user: Player742
-[23:07:24] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:07:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod Test
-[23:07:32] [Sound Library Loader/INFO]: Sound engine started
-[23:07:32] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[23:07:32] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[23:07:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod Test
-[23:07:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:07:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:07:33] [Sound Library Loader/INFO]: Sound engine started
-[23:07:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[23:07:35] [Server thread/INFO]: Generating keypair
-[23:07:35] [Server thread/INFO]: Preparing start region for level 0
-[23:07:36] [Server thread/INFO]: Changing view distance to 12, from 10
-[23:07:37] [Server thread/INFO]: Player742[local:E:9e9aded2] logged in with entity id 194 at (-766.1050077022034, 4.0, 274.32109926220085)
-[23:07:37] [Server thread/INFO]: Player742 joined the game
-[23:07:39] [Server thread/INFO]: Player742 has just earned the achievement [Taking Inventory]
-[23:07:39] [Client thread/INFO]: [CHAT] Player742 has just earned the achievement [Taking Inventory]
-[23:08:01] [Server thread/INFO]: Saving and pausing game...
-[23:08:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:08:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:08:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:08:15] [Server thread/INFO]: Saving and pausing game...
-[23:08:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:08:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:08:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:08:51] [Server thread/INFO]: Saving and pausing game...
-[23:08:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:08:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:08:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:08:52] [Server thread/INFO]: Stopping server
-[23:08:52] [Server thread/INFO]: Saving players
-[23:08:52] [Server thread/INFO]: Saving worlds
-[23:08:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:08:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:08:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:08:53] [Client thread/INFO]: Stopping!
+[16:42:45] [main/INFO]: Setting user: Player960
+[16:42:45] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:42:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod Test
+[16:42:52] [Sound Library Loader/INFO]: Sound engine started
+[16:42:53] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:42:53] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:42:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod Test
+[16:42:53] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:42:53] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:42:54] [Sound Library Loader/INFO]: Sound engine started
+[16:42:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:42:56] [Server thread/INFO]: Generating keypair
+[16:42:56] [Server thread/INFO]: Preparing start region for level 0
+[16:42:56] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:42:57] [Server thread/INFO]: Player960[local:E:8041b330] logged in with entity id 185 at (-764.9873695175454, 5.0, 278.8109648982607)
+[16:42:57] [Server thread/INFO]: Player960 joined the game
+[16:45:18] [Server thread/INFO]: Player960 has just earned the achievement [Taking Inventory]
+[16:45:18] [Client thread/INFO]: [CHAT] Player960 has just earned the achievement [Taking Inventory]

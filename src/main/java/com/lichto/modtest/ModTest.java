@@ -1,8 +1,10 @@
 package com.lichto.modtest;
 
+import com.lichto.modtest.client.handler.KeyInputEventHandler;
 import com.lichto.modtest.handler.ConfigurationHandler;
 import com.lichto.modtest.init.ModBlocks;
 import com.lichto.modtest.init.ModItems;
+import com.lichto.modtest.init.Recipes;
 import com.lichto.modtest.proxy.IProxy;
 import com.lichto.modtest.reference.Reference;
 import com.lichto.modtest.utility.LogHelper;
@@ -31,7 +33,8 @@ public class ModTest
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Init Complete.");
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
         ModBlocks.init();
@@ -40,7 +43,8 @@ public class ModTest
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+        Recipes.init();
     }
 
     @Mod.EventHandler
